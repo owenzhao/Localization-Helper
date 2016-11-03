@@ -17,6 +17,16 @@ instead.
 This extension converts this conversion automatically.
 
 ## How to use
+### Downloading for Mac user
+You can download this app [here](https://www.dropbox.com/s/lclkdu5x2mek4yv/Localization%20Helper.zip?dl=0).
+
+1. Download it from above link.
+2. Unzip it.
+3. Quit Xcode and run this app. The opening app is blank as it has no UI, only Xcode extension.
+4. Quit this app, and open Xcode.
+5. Choose any project. In the opening source editor, click Xcode menu, File->Modify LocalizationString->Modify LocalizationStrings.
+
+### From source
 1. Clone or download the project. Code sign both targets, `Localization Helper` and `Modify NSLocalizedString` with your own id.
 2. Choose `Modify NSLocalizedString` as you current working target and click run.
 3. In the Xcode that pops up, choose a project other than this project.

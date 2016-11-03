@@ -1,4 +1,6 @@
 # Localization-Helper
+![sc](sc.jpg)
+
 ## What is this for?
 In Xcode, you can use 
 

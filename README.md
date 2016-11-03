@@ -1,0 +1,2 @@
+# Localization-Helper
+Xcode Extension

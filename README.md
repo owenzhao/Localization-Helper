@@ -1,4 +1,21 @@
 # Localization-Helper
+## What is this for?
+In Xcode, you can use 
+
+```swift
+let says = NSLocalizedString("It runs \(count) times", comment: "run times")
+```
+
+But when you translated it, it wouldn't work. As in fact, `\(foo)` inside `NSLocalizedString` is not supported. You should use 
+
+```swift
+let says = String.localizedStringWithFormat(NSLocalizedString("It runs %@ times", comment: "run times"), String(count))
+```
+
+instead.
+
+This extension converts this conversion automatically.
+
 ## How to use
 1. Clone or download the project. Code sign both targets, `Localization Helper` and `Modify NSLocalizedString` with your own id.
 2. Choose `Modify NSLocalizedString` as you current working target and click run.

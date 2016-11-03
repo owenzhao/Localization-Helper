@@ -25,6 +25,6 @@ let newSays = NSLocalizedString("I have been here for \(days) days, \(hours) hou
 
 ## Known issues
 1. /* */ in one single line is not supported.
-2. Multiple `NSLocalizedStrings`in one line is not supported as Apple suggest to use on `NSLocalizedString` instead of composite them together.
+2. Multiple `NSLocalizedStrings`in one line is not supported as Apple suggests using one `NSLocalizedString` instead of compositing them together.
 
 

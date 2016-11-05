@@ -20,7 +20,7 @@ This extension converts this conversion automatically.
 
 ## How to use
 ### Downloading for Mac user
-You can download this app [here](https://www.dropbox.com/s/lclkdu5x2mek4yv/Localization%20Helper.zip?dl=0).
+You can download this app [here](https://www.dropbox.com/s/zhb9ea8z0chtdwz/Localization%20Helper%20v1.1.app.zip?dl=0).
 
 1. Download it from above link.
 2. Unzip it.
